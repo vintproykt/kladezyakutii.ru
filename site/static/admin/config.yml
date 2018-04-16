@@ -6,20 +6,20 @@ public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
+    label: "Новости" # Used in the UI, ie.: "New Post"
     folder: "site/content/post" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Intro Blurb", name: "description", widget: "text"}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Заголовок", name: "title", widget: "string"}
+      - {label: "Дата публикации", name: "date", widget: "datetime"}
+      - {label: "Аннотация", name: "description", widget: "text"}
+      - {label: "Изображение", name: "image", widget: "image", required: false}
+      - {label: "Содержимое", name: "body", widget: "markdown"}
   - name: "pages"
-    label: "Pages"
+    label: "Страницы"
     files:
       - file: "site/content/_index.md"
-        label: "Home Page"
+        label: "Главная страница"
         name: "home"
         fields:
           - {label: Title, name: title, widget: string}
@@ -38,7 +38,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
       - file: "site/content/contact/_index.md"
-        label: "Contact Page"
+        label: "Контакты"
         name: "contact"
         fields:
           - {label: Title, name: title, widget: string}
