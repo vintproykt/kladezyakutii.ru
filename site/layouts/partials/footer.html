@@ -5,8 +5,8 @@
 		<div class="measure-narrow center mb4">
 
 			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
-			<p class="f3 lh-title light-gray b tc mb2">Newsletter subscribe</p>
-			<p>Get awesome news from us in your inbox every two weeks. Be the first to learn about new products.</p>
+			<p class="f3 lh-title light-gray b tc mb2">Подпишитесь на обновления</p>
+			<p>Не пропустите благотворительные акции и концерты!</p>
 
 			{{ partial "newsletter-form" . }}
 
@@ -15,7 +15,7 @@
 		<div class="flex-ns justify-between">
 
 			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
+				<h3 class="f4 b lh-title mb1 primary">БФ «Кладезь Якутии»</h3>
 				<ul class="mb3">
 					<li><a href="/" class="link">Home</a></li>
 					<li><a href="/products" class="link">Our products</a></li>
@@ -26,20 +26,18 @@
 			</div>
 
 			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
+				<h3 class="f4 b lh-title mb1 primary">Что-то ещё...</h3>
 				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
 					<li><a href="/contact" class="link">Schedule and appointment</a></li>
 				</ul>
 			</div>
 
 			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
+				<h3 class="f4 b lh-title mb2 primary">Мы в соцсетях</h3>
 				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
+					{{ partial "social-icon" (dict "link" "https://www.instagram.com/kladez_yakutii/" "svg" "icons-instagram") }}
+					{{ partial "social-icon" (dict "link" "https://vk.com/bf_kladezyakutii" "svg" "icons-vk") }}
+					{{ partial "social-icon" (dict "link" "https://ok.ru/group53557274017911" "svg" "icons-ok") }}
 				</ul>
 			</div>
 
