@@ -1,5 +1,6 @@
 ::selection {
   background-color: var(--highlight);
+  color: var(--black);
 }
 
 /* Used in the navbar */
