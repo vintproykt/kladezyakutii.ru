@@ -1,10 +1,9 @@
-<footer class="bg-black ph3 pv4 white">
+<footer class="bg-black ph3 pv1 bg-top cover overlay white" style="background-image: url('/img/logo.svg'); background-position-y: 2em">
 
 	<div class="mw7 center pt3">
 
 		<div class="measure-narrow center mb4">
 
-			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
 			<p class="f3 lh-title light-gray b tc mb2">Подпишитесь на обновления</p>
 			<p>Не пропустите благотворительные акции и концерты!</p>
 
@@ -15,29 +14,33 @@
 		<div class="flex-ns justify-between">
 
 			<div>
-				<h3 class="f4 b lh-title mb1 primary">БФ «Кладезь Якутии»</h3>
+				<h3 class="f4 b lh-title mb1 primary">Фонд</h3>
 				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Contact</a></li>
+					<li><a href="/" class="link">Главная страница</a></li>
+					<li><a href="/fundraising" class="link">Сбор пожертвований</a></li>
+					<li><a href="/requisites" class="link">Реквизиты</a></li>
+					<li><a href="/documents" class="link">Учредительные документы</a></li>
 				</ul>
 			</div>
 
 			<div>
-				<h3 class="f4 b lh-title mb1 primary">Что-то ещё...</h3>
+				<h3 class="f4 b lh-title mb1 primary">Пульс</h3>
 				<ul class="mb3">
-					<li><a href="/contact" class="link">Schedule and appointment</a></li>
+					<li><a href="/post" class="link">Новости</a></li>
+					<li><a href="/gallery" class="link">Галерея</a></li>
 				</ul>
 			</div>
 
-			<div>
-				<h3 class="f4 b lh-title mb2 primary">Мы в соцсетях</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "https://www.instagram.com/kladez_yakutii/" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "https://vk.com/bf_kladezyakutii" "svg" "icons-vk") }}
-					{{ partial "social-icon" (dict "link" "https://ok.ru/group53557274017911" "svg" "icons-ok") }}
+			<div id="contacts">
+				<h3 class="f4 b lh-title mb1 primary">Контакты</h3>
+				<ul class="mb3">
+					<li><a href="tel:+79247651612" class="link">📞 +7&nbsp;(924)&nbsp;765-16-12</a></li>
+					<li>Мы в соцсетях:</li>
+					<ul class="mhn2">
+						{{ partial "social-icon" (dict "link" "https://www.instagram.com/kladez_yakutii/" "svg" "icons-instagram") }}
+						{{ partial "social-icon" (dict "link" "https://vk.com/bf_kladezyakutii" "svg" "icons-vk") }}
+						{{ partial "social-icon" (dict "link" "https://ok.ru/group53557274017911" "svg" "icons-ok") }}
+					</ul>
 				</ul>
 			</div>
 
